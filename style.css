@@ -1,0 +1,141 @@
+body {
+	
+	/*background-color: rgb(173,216,230);*/
+	background-image: url(Images/nebuleuse.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: rgb(47, 52, 56);
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+
+}
+
+
+
+
+
+h1 {
+
+	color: #272727;
+	font-family: Times, serif;
+	font-size: 35px;
+	font-weight: 900;
+	text-transform: none;
+	text-align: center;
+
+}
+
+h2 {
+	color: #272727;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+h3 {
+	color: #272727;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: rgb(3, 64, 166);
+
+}
+a:hover {
+	color: rgb(90, 101, 117);
+}
+.container{
+
+	padding: 30px
+	border-radius:4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.3	)
+	border-radius: 5px;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+
+ 	
+
+.img-circle {  	
+  border-radius: 50%;
+
+
+}
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+
+.card-white {
+  background-color: #36827F;
+  padding: 40px;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+
+}
+
+.img-circle{
+  border-radius: 70% ;
+}
+
+
+@media (max-width: 500px) {
+  /* For a screen < 500px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 760px) {
+  /* For a screen < 760px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+.btn-grey {
+  background-color:rgb(190,190,195);
+  color:grey;
+  padding:10px 15px;
+  border-radius: 10px;
+}
+
+.btn-grey:hover{
+  background-color: rgb(173,216,230);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display:inline;
+  padding: 10px;
+}
+
+.img{
+  border-radius: 20%;
+
+}
+
+.img-bordered {
+  border: 5px solid black;
+}
